@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+
+.center{
+    height: 90vh;
+    background-color: rgba(206, 206, 206, 0.223);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+    background-color: white;
+    font-family: "El Messiri", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    padding-right: 50px;
+    height: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.cart-image{
+    border: 3px solid whitesmoke;
+    height: 500px;
+    margin-right: 0%;
+    margin: 20px;
+}
+.space-inBetween{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 0%;
+    margin: 20px;
+}
+.purchaseCount{
+    cursor: pointer;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+.order-btn{
+    background-color: crimson;
+    padding: 10px 35px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+} 
